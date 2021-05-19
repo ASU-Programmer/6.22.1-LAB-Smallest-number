@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      int NumberOne;
+      int NumberTwo;
+      int NumberThree;
+      int Min;
+      NumberOne = Integer.parseInt(scnr.next());
+      NumberTwo = Integer.parseInt(scnr.next());
+      NumberThree = Integer.parseInt(scnr.next());
+      
+      if (NumberOne < NumberTwo) {
+         Min = NumberOne;
+      }
+      else {
+         Min = NumberTwo;
+      }
+      if (Min > NumberThree) {
+         System.out.println(NumberThree);
+      }
+      else {
+         System.out.println(Min);
+      }
+         
+      
+   }
+}
